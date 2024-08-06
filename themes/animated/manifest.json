@@ -1,19 +1,13 @@
-{
-
-  "description": "Theme using an animated PNG file as the theme_frame image. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#themes",
-  "manifest_version": 2,
-  "name": "animated",
-  "version": "1.1",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/themes/animated",
-
-  "theme": {
-    "images": {
-      "theme_frame": "parrot.png"
-    },
-    
-    "colors": {
-       "frame": "#ffffff",
-       "tab_text": "#000"
-    }
-  }
-}
+ "theme": {
+   "images": {
+     "additional_backgrounds":  anime-nat.gif
+   },
+   "properties": {
+     "additional_backgrounds_alignment": [ "top" ],
+     "additional_backgrounds_tiling": [ "repeat"  ]
+   },
+   "colors": {
+     "frame": "pink",
+     "tab_background_text": "#000"
+   }
+ }
